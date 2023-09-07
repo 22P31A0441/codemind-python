@@ -1,10 +1,6 @@
-def per(n):
-    i=1
-    while i*i<=n:
-      if i*i==n:
-         return True
-      i+=1
-    return False
 n=int(input())
-print(per(n))
-        
+s=n**0.5
+if s.is_integer():
+   print("True")
+else:
+    print("False")
